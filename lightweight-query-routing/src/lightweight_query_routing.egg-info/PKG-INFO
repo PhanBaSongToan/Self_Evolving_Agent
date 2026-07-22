@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: lightweight-query-routing
+Version: 0.1.0
+Summary: Auditable reproduction of the non-deep-learning subset of Lightweight Query Routing for Adaptive RAG.
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24
+Requires-Dist: pandas>=2.0
+Requires-Dist: scipy>=1.10
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: matplotlib>=3.7
+Requires-Dist: joblib>=1.3
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
